@@ -1,0 +1,40 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Ajout pour centrer verticalement */
+    width: 100%; /* Modification pour prendre toute la largeur */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.chat-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Ajout pour spécifier une police de caractères */
+}
+
+.button-wrapper {
+    margin-bottom: 15px;
+}
+
+.client-button,
+.advisor-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.client-button:hover,
+.advisor-button:hover {
+    background-color: #0056b3;
+}
